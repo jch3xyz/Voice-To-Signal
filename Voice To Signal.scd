@@ -1,3 +1,4 @@
+Server.default.options.device_("Scarlett Solo USB");
 ("Setup/Setup.scd").loadRelative;
 
 ~sin = {SinOsc.ar([80, 82],mul: 0.1)}
